@@ -57,45 +57,7 @@ export const ReportFound: React.FC = () => {
     } catch (error) {
       console.error("Error deleting found item", error);
     }
-  };
-
-//   return (
-//     <div className="p-6 max-w-lg mx-auto">
-//       <h2 className="text-2xl font-bold mb-4">Found Items</h2>
-//       <div className="space-y-4 max-h-96 overflow-y-auto border p-4 rounded">
-//       {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8"> */}
-//         {foundItems.length > 0 ? (
-//           foundItems.map((item) => (
-//             <div key={item._id} className="p-6 border border-gray-300 rounded-2xl shadow-lg bg-white">
-//               {item.imageUrl && (
-//                 <img
-//                   src={item.imageUrl}
-//                   alt={item.title}
-//                   className="max-w-full max-h-96 mx-auto rounded"
-//                 />
-//               )}
-//               <h3 className="text-lg font-semibold mt-2">{item.title}</h3>
-//               <p className="text-gray-600">{item.description}</p>
-//               {(currentUser === item.username || currentUser === "admin") && (
-//                 <button
-//                   onClick={() => handleDelete(item._id)}
-//                   className="bg-red-500 text-white p-2 mt-2 rounded"
-//                 >
-//                   Take item
-//                 </button>
-//               )}
-//             </div>
-//           ))
-//         ) : (
-//           <p className="text-gray-500">No found items reported yet.</p>
-//         )}
-//       </div>
-//     </div>
-//   );
-// };
-
-
-
+};
 
 return (
   <div className="p-6 max-w-7xl mx-auto">
@@ -103,7 +65,10 @@ return (
     {foundItems.length > 0 ? (
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {foundItems.map((item) => (
-          <div key={item._id} className="p-4 border border-gray-300 rounded-2xl shadow-md bg-white hover:shadow-xl transition-shadow duration-200">
+          <div
+            key={item._id}
+            className="p-4 border border-gray-300 rounded-2xl shadow-md bg-white dark:bg-gray-800 hover:shadow-xl transition-shadow duration-200"
+          >
             {item.imageUrl && (
               <img
                 src={item.imageUrl}
@@ -111,8 +76,8 @@ return (
                 className="w-full h-48 object-cover rounded-md"
               />
             )}
-            <h3 className="text-lg font-semibold mt-3">{item.title}</h3>
-            <p className="text-gray-600">{item.description}</p>
+            <h3 className="text-lg font-semibold mt-3 text-gray-900 dark:text-white">{item.title}</h3>
+            <p className="text-gray-600 dark:text-gray-300">{item.description}</p>
             {(currentUser === item.username || currentUser === "admin") && (
               <button
                 onClick={() => handleDelete(item._id)}
@@ -125,7 +90,7 @@ return (
         ))}
       </div>
     ) : (
-      <p className="text-gray-500">No found items reported yet.</p>
+      <p className="text-gray-500 dark:text-gray-400">No found items reported yet.</p>
     )}
   </div>
 );
