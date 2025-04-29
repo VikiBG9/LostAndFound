@@ -58,7 +58,7 @@ export const HeroCards = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="https://github.com"
+              href="https://github.com/VikiBG9/LostAndFound"
               target="_blank"
               className={buttonVariants({
                 variant: "ghost",

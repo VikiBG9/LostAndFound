@@ -125,7 +125,7 @@ export const Navbar = ({ user, setUser }: NavbarProps) => {
 
           <div className="hidden md:flex gap-2">
             <a
-              href="https://github.com"
+              href="https://github.com/VikiBG9/LostAndFound"
               target="_blank"
               rel="noopener noreferrer"
               className={`border ${buttonVariants({ variant: "secondary" })}`}
