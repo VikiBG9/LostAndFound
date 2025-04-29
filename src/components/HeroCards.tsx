@@ -113,7 +113,7 @@ export const HeroCards = () => {
               variant="secondary"
               className="text-sm text-primary"
             >
-              Most popular
+              New
             </Badge>
           </CardTitle>
           <div>
@@ -122,12 +122,15 @@ export const HeroCards = () => {
           </div>
 
           <CardDescription>
-            Subscripe today so you can get notified when your item is found!
+            Introducing subscriptions!
+          </CardDescription>
+          <CardDescription>
+            Get notified when your item is found + extra benefits.
           </CardDescription>
         </CardHeader>
 
         <CardContent>
-          <Button className="w-full">Start Free Trial</Button>
+          <Button className="w-full">Coming soon!</Button>
         </CardContent>
 
         <hr className="w-4/5 m-auto mb-4" />

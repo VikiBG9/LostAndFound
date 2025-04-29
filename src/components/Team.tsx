@@ -23,7 +23,7 @@ interface SociaNetworkslProps {
 
 const teamList: TeamProps[] = [
   {
-    imageUrl: "https://i.pravatar.cc/150?img=35",
+    imageUrl: "./src/assets/Alek.jpeg",
     name: "Alek Drenchev",
     position: "Developer",
     socialNetworks: [
@@ -42,7 +42,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "https://i.pravatar.cc/150?img=60",
+    imageUrl: "./src/assets/Viktor.jpeg",
     name: "Viktor Kostadinov",
     position: "Developer",
     socialNetworks: [
@@ -61,7 +61,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "https://i.pravatar.cc/150?img=36",
+    imageUrl: "./src/assets/Veselin.jpeg",
     name: "Veselin Kolev",
     position: "Developer",
     socialNetworks: [
@@ -77,7 +77,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "https://i.pravatar.cc/150?img=17",
+    imageUrl: "./src/assets/Iordan.jpeg",
     name: "Jordan Andreev",
     position: "Developer",
     socialNetworks: [

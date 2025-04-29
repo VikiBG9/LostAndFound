@@ -22,7 +22,7 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="https://github.com/VikiBG9/LostAndFound"
               className="opacity-60 hover:opacity-100"
             >
               Github
@@ -32,20 +32,20 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="https://github.com/VikiBG9/LostAndFound"
               className="opacity-60 hover:opacity-100"
             >
-              Twitter
+              X
             </a>
           </div>
 
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="https://www.facebook.com/?locale=bg_BG"
               className="opacity-60 hover:opacity-100"
             >
-              Dribbble
+              Facebook
             </a>
           </div>
         </div>
@@ -121,7 +121,7 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="https://www.youtube.com/"
               className="opacity-60 hover:opacity-100"
             >
               Youtube
@@ -131,7 +131,7 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="https://discord.com/"
               className="opacity-60 hover:opacity-100"
             >
               Discord
@@ -141,7 +141,7 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="https://www.twitch.tv/"
               className="opacity-60 hover:opacity-100"
             >
               Twitch
