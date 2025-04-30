@@ -30,13 +30,13 @@
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/leoMirandaa/shadcn-landing-page.git
+git clone https://github.com/VikiBG9/LostAndFound.git
 ```
 
 2. Go into project
 
 ```bash
-cd shadcn-landing-page
+cd LostAndFound
 ```
 
 3. Install dependencies
