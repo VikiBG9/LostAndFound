@@ -1,6 +1,6 @@
 # ReportLost
 
-![Screenshot](./assets/prj1.png)
+![Screenshot](./src/assets/prj1.png)
 
 ## Sections
 
