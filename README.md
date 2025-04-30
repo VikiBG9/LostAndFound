@@ -1,4 +1,7 @@
 # ReportLost
+
+![Screenshot](./assets/prj1.png)
+
 ## Sections
 
 - [x] Navbar
